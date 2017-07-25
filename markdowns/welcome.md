@@ -1,6 +1,6 @@
 # Welcome!
 
-This React template lets you get started quickly with a simple working example using React (with `npm`). If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
+This React template lets you get started quickly with a simple working example using React (with `yarn`). If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
 
 The source code for this template is on [GitHub](https://github.com/TechDotIO/react-template), please feel free to come up with proposals to improve it.
 

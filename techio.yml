@@ -12,6 +12,6 @@ plan:
 projects:
   react:
     root: /react-project # Set the root path to your react project
-    buildCommand: npm install
+    buildCommand: yarn install
     # Set the docker image. This image runs npm install for you on every build
     runner: node:latest
