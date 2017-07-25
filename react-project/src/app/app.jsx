@@ -1,13 +1,13 @@
 import React from 'react';
 import './app.css';
-import logo from './logo_og.png'
+import logo from './logo_og.png';
 
 export default class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             title: `[TECH.IO] React template`
-        }
+        };
     }
     render() {
         return (<div>
