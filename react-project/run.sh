@@ -2,7 +2,7 @@
 
 echo "🤖 Building your react project. Please sit tight. ⏳"
 
-if yarn start ; then
+if yarn start 2>/dev/null ; then
     echo "🤖 Build success!"
     echo "TECHIO> open --static-dir /project/target/dist /index.html"
 else
