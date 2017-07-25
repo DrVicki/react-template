@@ -1,21 +1,23 @@
 body {
     background-color: #222;
-    .logo {
-        width: 150px;
-        margin: auto;
-        display: block;
-        -webkit-animation: rotating 2s linear infinite;
-        -moz-animation: rotating 2s linear infinite;
-        -ms-animation: rotating 2s linear infinite;
-        -o-animation: rotating 2s linear infinite;
-        animation: rotating 2s linear infinite;
-    }
-    .title {
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        color: #61dafb;
-        font-weight: 400;
-    }
+}
+
+.logo {
+    width: 150px;
+    margin: auto;
+    display: block;
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #61dafb;
+    font-weight: 400;
 }
 
 @-webkit-keyframes rotating {
