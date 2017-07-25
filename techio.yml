@@ -10,7 +10,8 @@ plan:
 
 # Settings for your programming projects and the associated Docker images
 projects:
-  angular:
-    root: /react-project # Set the root path to your angular project
+  react:
+    root: /react-project # Set the root path to your react project
+    buildCommand: npm install
     # Set the docker image. This image runs npm install for you on every build
-    runner: techio/node-npm-runner:1.1.0-node-7.4
+    runner: node:latest
